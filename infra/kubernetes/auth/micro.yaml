@@ -1,0 +1,11 @@
+apiVersion: bancolombia.businessflows/v1
+kind: Micro
+metadata:
+  namespace: auth
+  name: auth-backdb
+spec:
+  image: nginx
+  replicas: 2
+  aws-resources:
+    region: us-east-1
+    db-name: authbackdb
