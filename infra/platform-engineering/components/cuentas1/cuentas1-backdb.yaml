@@ -1,0 +1,11 @@
+apiVersion: bancolombia.businessflows/v1
+kind: Micro
+metadata:
+  namespace: cuentas1
+  name: cuentas1-backdb
+spec:
+  image: nginx
+  replicas: 2
+  aws-resources:
+    region: us-east-1
+    db-name: cuentas1backdb
