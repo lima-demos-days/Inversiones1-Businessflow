@@ -1,0 +1,11 @@
+apiVersion: bancolombia.businessflows/v1
+kind: Micro
+metadata:
+  namespace: inversiones
+  name: inversiones
+spec:
+  image: nginx
+  replicas: 1
+  aws-resources:
+    region: us-east-1
+    db-name: inversiones
