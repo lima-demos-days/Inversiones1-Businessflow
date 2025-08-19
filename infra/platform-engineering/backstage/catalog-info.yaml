@@ -1,0 +1,8 @@
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: businessflow-name
+  description: description of the flow
+spec:
+  owner: owner of the flow
+  domain: business domain
