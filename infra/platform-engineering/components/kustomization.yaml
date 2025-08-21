@@ -3,3 +3,4 @@ kind: Kustomization
 resources:
 - cuentas1/
 - inversiones/
+- auth/
